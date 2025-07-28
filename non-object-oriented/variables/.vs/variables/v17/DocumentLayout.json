@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alptu\\OneDrive - itu.edu.tr\\\u00DCni\\2024-2025 Yaz\\BLG 252E\\oop-learning\\non-object-oriented\\variables\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7E8DC1-755E-4BAD-ACF2-2D9242A7FB13}|variables.vcxproj|C:\\Users\\alptu\\OneDrive - itu.edu.tr\\\u00DCni\\2024-2025 Yaz\\BLG 252E\\oop-learning\\non-object-oriented\\variables\\variables.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C7E8DC1-755E-4BAD-ACF2-2D9242A7FB13}|variables.vcxproj|solutionrelative:variables.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "variables.cpp",
+              "DocumentMoniker": "C:\\Users\\alptu\\OneDrive - itu.edu.tr\\\u00DCni\\2024-2025 Yaz\\BLG 252E\\oop-learning\\non-object-oriented\\variables\\variables.cpp",
+              "RelativeDocumentMoniker": "variables.cpp",
+              "ToolTip": "C:\\Users\\alptu\\OneDrive - itu.edu.tr\\\u00DCni\\2024-2025 Yaz\\BLG 252E\\oop-learning\\non-object-oriented\\variables\\variables.cpp",
+              "RelativeToolTip": "variables.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-28T17:20:44.931Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
