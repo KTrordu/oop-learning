@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  cpp-dev:
+    build: .
+    container_name: cpp-workspace
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    stdin_open: true
+    tty: true
+    command: /bin/bash
