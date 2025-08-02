@@ -4,7 +4,7 @@
 
 module geometry;
 
-double const PI = 3.14;
+double const PI{3.14};
 
 #pragma region Point
 class Point
@@ -15,13 +15,15 @@ public:
     Point(int x, int y, int MINX, int MINY);
     Point(const Point& original);
 
-    void move(int x, int y);
+    Point& move(int x, int y);
     void print() const;
     bool isAtOrigin() const;
     double distanceFromOrigin() const;
     const Point* maxDistanceFromOrigin(const Point& other) const;
     int getX() const;
     int getY() const;
+
+    friend void displayPoint(const Point& p);
 
     static unsigned int getPointCount();
     unsigned int getAccessCount() const;
@@ -65,11 +67,12 @@ Point::Point(const Point& original) : m_MINX{original.m_MINX}, m_MINY{original.m
     s_pointCount++;
 }
 
-void Point::move(int x, int y)
+Point& Point::move(int x, int y)
 {
     x >= m_MINX ? m_x = x : m_x = m_MINX;
     y >= m_MINY ? m_y = y : m_y = m_MINY;
     m_accessCount++;
+    return *this;
 }
 
 void Point::print() const
@@ -107,6 +110,11 @@ int Point::getY() const
     return m_y;
 }
 
+void displayPoint(const Point& p)
+{
+    std::printf("Point: (%d,%d)\n", p.m_x, p.m_y);
+}
+
 unsigned int Point::getPointCount()
 {
     return s_pointCount;
@@ -141,6 +149,8 @@ public:
     double area() const;
     double perimeter() const;
     void print() const;
+
+    friend void displayCircle(const Circle& c);
 
     static unsigned int getCircleCount();
     unsigned int getAccessCount() const;
@@ -202,7 +212,12 @@ double Circle::perimeter() const
 void Circle::print() const
 {
     m_accessCount++;
-    std::printf("Center: (%d,%d), Radius: %f", m_center.getX(), m_center.getY(), m_radius);
+    std::printf("Center: (%d,%d), Radius: %f\n", m_center.getX(), m_center.getY(), m_radius);
+}
+
+void displayCircle(const Circle& c)
+{
+    std::printf("Circle: Center(%d,%d), Radius:%f\n", c.m_center.getX(), c.m_center.getY(), c.m_radius);
 }
 
 unsigned int Circle::getCircleCount()
@@ -271,3 +286,17 @@ CustomString::~CustomString()
 
 
 #pragma endregion CustomString
+
+#pragma region Utils
+
+inline double max(double a, double b)
+{
+    return (a > b) ? a : b;
+}
+
+inline double max(double a, double b, double c)
+{
+    return max(max(a, b), c);
+}
+
+#pragma endregion Utils
