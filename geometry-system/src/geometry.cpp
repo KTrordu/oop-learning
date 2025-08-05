@@ -1,8 +1,8 @@
+module geometry;
+
 #include <iostream>
 #include <cmath>
 #include <cstring>
-
-module geometry;
 
 double const PI{3.14};
 

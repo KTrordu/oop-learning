@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgeometry_module.a CMakeFiles/geometry_module.dir/src/geometry.cpp.o CMakeFiles/geometry_module.dir/src/geometry.ixx.o
+/usr/bin/ranlib libgeometry_module.a

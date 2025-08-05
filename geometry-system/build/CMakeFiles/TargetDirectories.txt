@@ -1,0 +1,4 @@
+/mnt/c/Users/alptu/OneDrive - itu.edu.tr/Üni/2024-2025 Yaz/BLG 252E/oop-learning/geometry-system/build/CMakeFiles/geometry_module.dir
+/mnt/c/Users/alptu/OneDrive - itu.edu.tr/Üni/2024-2025 Yaz/BLG 252E/oop-learning/geometry-system/build/CMakeFiles/GeometrySystem.dir
+/mnt/c/Users/alptu/OneDrive - itu.edu.tr/Üni/2024-2025 Yaz/BLG 252E/oop-learning/geometry-system/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/alptu/OneDrive - itu.edu.tr/Üni/2024-2025 Yaz/BLG 252E/oop-learning/geometry-system/build/CMakeFiles/rebuild_cache.dir
